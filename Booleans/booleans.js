@@ -7,7 +7,7 @@ Da mesma forma que podemos reatribuir variáveis ​​com números, também pod
 */
 
 let isOnSale = true;
-//console.log(isOnSale);
+console.log(isOnSale);
 isOnSale = false;
 console.log(isOnSale);
 
