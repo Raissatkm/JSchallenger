@@ -72,3 +72,56 @@ numeros.push(6);           // Adiciona o elemento 6 ao final do array
 numeros.pop();             // Remove o último elemento do array (neste caso, o 6)
 let indice = numeros.indexOf(3);   // Retorna o índice do elemento 3 (índice 2)
 Essas são apenas algumas das operações mais comuns em JavaScript. A linguagem possui muitas outras funcionalidades, incluindo operações de bitwise, ternárias, entre outras. Com o conhecimento dessas operações, você poderá desenvolver algoritmos e scripts mais complexos para suas aplicações web.
+
+
+Adição (+)
+Para somar dois valores, ou variáveis, em JS, basta utilizar o operador "+":
+
+Exemplo:
+let V, V01=5, V02=2;
+V=V01+V02 // resulta em: 7
+console.log(V);
+Subtração (-)
+Para subtrair dois valores, ou variáveis, em JS, basta utilizar o operador "-":
+
+Exemplo:
+let V, V01=5, V02=2;
+V=V01-V02; // resulta em: 3
+console.log(V);
+Multiplicação (*)
+Para multiplicar dois valores, ou variáveis, em JS, basta utilizar o operador "*":
+
+Exemplo:
+let V, V01=5, V02=2;
+V=V01*V02; // resulta em: 10
+console.log(V);
+Divisão (/)
+Para dividir dois valores, ou variáveis, em JS, basta utilizar o operador "/":
+
+Exemplo:
+let V, V01=5, V02=2;
+V=V01/V02 // resulta em: 2,5
+console.log(V);
+Resto da divisão inteira (%)
+Para obter o resto da divisão de dois valores, ou variáveis inteiras, em JS, basta utilizar o operador "%":
+
+Exemplo:
+let V, V01=5, V02=2;
+V=V01%V02 // resulta em: 1
+console.log(V);
+Incremento (++)
+Para incrementar uma variável, em JS, basta utilizar o operador "++". Este incremento pode ser antes do uso do valor da variável, ou depois:
+
+Sintaxe
+Pré-incremento - primeiro incrementa o valor da variável, depois o utiliza na expressão ou equação:
+
+++nome_variável 
+Pós-incremento - primeiro utiliza o valor da variável, depois o incrementa na expressão ou equação:
+
+nome_variável++ 
+Exemplo:
+let V=5, V01, V02;
+V01=V++;
+V02 = ++V;
+console.log(V01); //V01 = 5;
+console.log(V02); //V02 = 7;

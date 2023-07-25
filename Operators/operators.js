@@ -5,13 +5,22 @@ expressões na console.log()instrução registrem true.*/
 
 
 
-const numOne = 3;
+const numOne = 4;
 const numTwo = 4;
 const numThree = 2;
 console.log(numOne >= numTwo, numTwo >= numThree);
 
-true
-true
+
+/*Operadores relacionais 
+ identidade 
+
+5 == 5 
+5 == '5'
+5 === "5"
+
+
+
+
 
 
 
